@@ -12,7 +12,7 @@ class Search extends Component {
             <div className="search-product">
                 {
                     data && data.map((item, index) => (
-                        <div className="row item-list">
+                        <div className="row item-list" key={item.title + index}>
                             <div className="col-sm-4 cover">
                                 <img src={item.image} alt="room" />
                             </div>
@@ -44,6 +44,9 @@ class Search extends Component {
                             </div>
                         </div>
                     ))
+                }
+                {
+                    !data.length && <div className="not-found"> Data not found according to your selected item. Please try again!. </div>
                 }
 
             </div>

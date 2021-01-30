@@ -9,16 +9,26 @@ class Raremark extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            products: []
+            products: productsAPI.data
         };
     }
-
+    searchingList = (param) => {
+        let products = productsAPI.data.filter(function (item) {
+            for (var key in param) {
+                if (item[key] === undefined || item[key] != param[key])
+                    return false;
+            }
+            return true;
+        });
+        this.setState(() => ({ products: products }))
+    }
     render() {
+        const { products } = this.state;
         return (
             <div className="container">
                 <Header />
-                <SearchBar />
-                <PropertyList data={productsAPI.data} />
+                <SearchBar callback={this.searchingList} />
+                <PropertyList data={[...products]} />
                 <Footer />
             </div>
         );

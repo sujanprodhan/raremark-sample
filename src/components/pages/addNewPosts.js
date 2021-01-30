@@ -67,7 +67,7 @@ class PostForm extends Component {
                             onChange={this.onChange}
                             value={this.state.title}
                             className="form-control"
-                            required="true"
+                            required={true}
                         />
                     </div>
                     <br />
@@ -79,7 +79,7 @@ class PostForm extends Component {
                             onChange={this.onChange}
                             value={this.state.body}
                             className="form-control"
-                            required="true"
+                            required={true}
                         />
                     </div>
                     <br />

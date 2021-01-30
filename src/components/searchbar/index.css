@@ -6,6 +6,12 @@
     background: #2F3E54;
     height: 90px;
 }
+.searchbar input, .searchbar select{
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 4px 10px;
+    width: 200px;
+}
 .searchbar .search-background .search-title{
     font-size: 30px;
     color: white;
