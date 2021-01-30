@@ -1,0 +1,38 @@
+
+.property-list{
+    border: 1px solid #333;
+    padding: 40px 0px;
+}
+.property-list .heading{
+    font-size: 26px;
+}
+
+.property-list .lists{
+    display: flex;
+    justify-content: space-between;
+}
+.property-list .lists .item{
+    padding: 10px;
+}
+.property-list .lists .rate{ 
+    font-size: 30px; font-weight: bold;
+    padding: 5px 0px;
+}
+.property-list .lists .description{ 
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+.property-list .lists .user-area{
+    padding-top: 20px;
+    display: flex;
+} 
+
+.property-list .lists .user-area .avatar{
+    margin-right: 20px;
+}
+
+.property-list .lists .user-area .avatar img{
+    border-radius: 100%;
+}
