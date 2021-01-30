@@ -9,7 +9,7 @@ class Header extends Component {
             <ul>
                 <li><a href="/"> Home </a></li>
                 <li><a href="/landing-page"> Landing Page </a></li>
-                <li><a href="/"> Product Details</a></li>
+                <li><a href="/details"> Product Details</a></li>
                 <li><a href="/"> Login</a></li>
             </ul>
         </div>

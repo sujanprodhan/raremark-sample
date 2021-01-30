@@ -12,6 +12,7 @@ import AddNewPost from './components/AddNewPost';
 
 import Raremark from './components/pages/index';
 import LandingPage from './components/pages/landingpage';
+import Details from './components/pages/details';
 import "./css/styles.css";
 
 const GlobalStyle = createGlobalStyle`${reset}`;
@@ -34,6 +35,9 @@ ReactDOM.render(
                     </Route>
                     <Route path="/landing-page" exact>
                         <LandingPage />
+                    </Route>
+                    <Route path="/details" exact>
+                        <Details />
                     </Route>
                 </Switch>
             </Provider>
