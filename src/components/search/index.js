@@ -14,7 +14,7 @@ class Search extends Component {
                     data && data.map((item, index) => (
                         <div className="row item-list" key={item.title + index}>
                             <div className="col-sm-4 cover">
-                                <img src={item.image} alt="room" />
+                            <a href="/details"> <img src={item.image} alt="room" /></a>
                             </div>
                             <div className="col-sm-8">
                                 <div className="top-line">

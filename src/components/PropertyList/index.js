@@ -24,7 +24,10 @@ class PropertyList extends Component {
                         data && data.map((item, index) => (
                             <div className="col-sm-4 item">
                                 <div className="image">
-                                    <img src={item.image} alt="room" /></div>
+                                    <a href="/details">
+                                    <img src={item.image} alt="room" />
+                                    </a>
+                                    </div>
                                 <div className="rate">
                                     {this.getRatingStar(item.rating)}
                                 </div>

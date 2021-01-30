@@ -56,7 +56,7 @@ class SearchBar extends Component {
                             <span><input type="text" value={title} placeholder="title" onChange={(e) => this.title(e)} name="title" /></span>
                         </div>
                         <div className="col-sm-3">
-                            <span> <i className="fa fa-user"> </i></span> {rating}
+                            <span> <i className="fa fa-user"> </i></span> 
                             <select name="" onChange={(e) => this.rating(e)}>
                                 <option value="0">Select Rating</option>
                                 <option value="1">Rating 1</option>

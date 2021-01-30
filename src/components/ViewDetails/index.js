@@ -7,7 +7,7 @@ class ViewDetails extends Component {
             <div className="view-product">
                 <div className="row">
                     <div className="banner">
-                        <img height="300" src="http://via.placeholder.com/1200" alt="room" />
+                        <img height="300" src="https://cdn.vox-cdn.com/thumbor/CTluvlc9kScZlylzsRR4QRCE4Gg=/6x0:641x423/1200x800/filters:focal(6x0:641x423)/cdn.vox-cdn.com/uploads/chorus_image/image/48767301/Screen_Shot_2016-02-09_at_9.08.28_AM.0.0.png" alt="room" />
                     </div>
                 </div>
 

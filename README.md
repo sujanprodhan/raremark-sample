@@ -3,7 +3,9 @@
 
 #Local development purpose
 
-## Raremark sample UI design and fetch api data placeholderjosn api post data.
+## Raremark sample UI test.
+
+* Pages: Landing page, Search Page
 
 ### npm install
 
