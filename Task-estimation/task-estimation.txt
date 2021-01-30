@@ -1,0 +1,17 @@
+Task estimation sample
+----------------------
+1. Project basic react structure - 1 Hour
+2. Create Header footer common componet - 1 hour
+3. Add react router and page folder - 30 min
+4. Add home intro page - 20 min
+5. Add Landing Page ui design - 2 hour 
+6. Add Details page UI design 1 hour
+7. Add Search page UI design : 1 hour 
+8. Get Api property list ( landing page ) : 40 min 
+9. Get Property details api data  : 40 
+10. Add propert reserved by onclick for any user : 30 min 
+11. Add search functinality and display item  : 2 hour 
+12. Learn MockAPI CRUD ( I am not familier with this ): 2 hours
+13. Testing ( pages & api call / redux data ) : 40 min. 
+
+Total estimation hour: 13 hours   
