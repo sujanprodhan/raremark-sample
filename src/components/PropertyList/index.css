@@ -1,6 +1,5 @@
 
 .property-list{
-    border: 1px solid #333;
     padding: 40px 0px;
 }
 .property-list .heading{
@@ -10,6 +9,7 @@
 .property-list .lists{
     display: flex;
     justify-content: space-between;
+    padding: 40px 0px;
 }
 .property-list .lists .item{
     padding: 10px;
