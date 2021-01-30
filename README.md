@@ -1,5 +1,6 @@
 
-## React redux start kit 
+## Tools: React JS, CSS, bootstrap ...
+
 
 #Local development purpose
 
@@ -10,3 +11,5 @@
 ### npm install
 
 ### npm start
+
+@by - sujanahpd@gmail.com
