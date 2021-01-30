@@ -1,0 +1,28 @@
+.search-product{
+    margin-top: 80px;
+}
+.search-product .item-list{
+    margin-bottom: 40px;
+}
+.search-product .item-list .top-line{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.search-product .item-list .product-title{
+    font-size: 30px;
+}
+.search-product .item-list .product-description{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.search-product .item-list .text-description{
+    font-size: 13px;
+    padding-bottom: 30px;
+}
+
+.search-product .item-list .rare-find-price{
+    display: flex;
+    justify-content: space-between;
+}

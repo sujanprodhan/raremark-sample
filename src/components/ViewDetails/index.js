@@ -6,76 +6,76 @@ class ViewDetails extends Component {
         return (
             <div className="view-product">
                 <div className="row">
-                    <div className="banner">                        
-                        <img  height="300" src="http://via.placeholder.com/1200" alt="room" />
+                    <div className="banner">
+                        <img height="300" src="http://via.placeholder.com/1200" alt="room" />
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col-sm-6">
-                    <div className="product-info">
-                        <h2> Stylish spacioas double with view city</h2>
-                        <div className="item-info">
-                            <div className="title">
-                                <span className="icon"><i className="fa fa-user"></i></span>
-                                <span className="user">  Private room flat</span>
-                                <p>
-                                    <span> 2 room </span>
-                                    <span> 2 Kitchen </span>
-                                    <span> 2 washrom </span>
-                                    <span> 2 bedroom </span>
-                                </p>
-                            </div>
-                            <div className="title">
-                                <span className="icon"><i className="fa fa-user"></i></span>
-                                <span className="user">  Private room flat</span>
-                                <p>
-                                    <span> 2 room </span>
-                                    <span> 2 Kitchen </span>
-                                    <span> 2 washrom </span>
-                                    <span> 2 bedroom </span>
-                                </p>
-                            </div>
-                            <div className="title">
-                                <span className="icon"><i className="fa fa-user"></i></span>
-                                <span className="user">  Private room flat</span>
-                                <p>
-                                    <span> 2 room </span>
-                                    <span> 2 Kitchen </span>
-                                    <span> 2 washrom </span>
-                                    <span> 2 bedroom </span>
-                                </p>
-                            </div>
-                            <div className="title">
-                                <span className="icon"><i className="fa fa-user"></i></span>
-                                <span className="user">  Private room flat</span>
-                                <p>
-                                    <span> 2 room </span>
-                                    <span> 2 Kitchen </span>
-                                    <span> 2 washrom </span>
-                                    <span> 2 bedroom </span>
-                                </p>
-                            </div>
-                            <div className="title">
-                                <span className="icon"><i className="fa fa-user"></i></span>
-                                <span className="user">  Private room flat</span>
-                                <p>
-                                    <span> 2 room </span>
-                                    <span> 2 Kitchen </span>
-                                    <span> 2 washrom </span>
-                                    <span> 2 bedroom </span>
-                                </p>
+                        <div className="product-info">
+                            <h2> Stylish spacioas double with view city</h2>
+                            <div className="item-info">
+                                <div className="title">
+                                    <span className="icon"><i className="fa fa-user"></i></span>
+                                    <span className="user">  Private room flat</span>
+                                    <p>
+                                        <span> 2 room </span>
+                                        <span> 2 Kitchen </span>
+                                        <span> 2 washrom </span>
+                                        <span> 2 bedroom </span>
+                                    </p>
+                                </div>
+                                <div className="title">
+                                    <span className="icon"><i className="fa fa-user"></i></span>
+                                    <span className="user">  Private room flat</span>
+                                    <p>
+                                        <span> 2 room </span>
+                                        <span> 2 Kitchen </span>
+                                        <span> 2 washrom </span>
+                                        <span> 2 bedroom </span>
+                                    </p>
+                                </div>
+                                <div className="title">
+                                    <span className="icon"><i className="fa fa-user"></i></span>
+                                    <span className="user">  Private room flat</span>
+                                    <p>
+                                        <span> 2 room </span>
+                                        <span> 2 Kitchen </span>
+                                        <span> 2 washrom </span>
+                                        <span> 2 bedroom </span>
+                                    </p>
+                                </div>
+                                <div className="title">
+                                    <span className="icon"><i className="fa fa-user"></i></span>
+                                    <span className="user">  Private room flat</span>
+                                    <p>
+                                        <span> 2 room </span>
+                                        <span> 2 Kitchen </span>
+                                        <span> 2 washrom </span>
+                                        <span> 2 bedroom </span>
+                                    </p>
+                                </div>
+                                <div className="title">
+                                    <span className="icon"><i className="fa fa-user"></i></span>
+                                    <span className="user">  Private room flat</span>
+                                    <p>
+                                        <span> 2 room </span>
+                                        <span> 2 Kitchen </span>
+                                        <span> 2 washrom </span>
+                                        <span> 2 bedroom </span>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                     <div className="col-sm-6">
                         <div className="product-price">
                             <div className="price"> <span>300 USD </span>per night</div>
                             <div className="rate"> ****</div>
                             <div className='date'>
-                                <input className="form-control" type="date" placeholder="2021-01-30"/>
-                                <input className="form-control" type="date" placeholder="2021-01-30"/>
+                                <input className="form-control" type="date" placeholder="2021-01-30" />
+                                <input className="form-control" type="date" placeholder="2021-01-30" />
                             </div>
                             <div className="guest">
                                 <select className="form-control">
@@ -95,9 +95,9 @@ class ViewDetails extends Component {
                                 <div>Op cost </div>
                                 <div> 15 USD</div>
                             </div>
-                        
+
                             <div className="btn btn-danger form-control"> Reserved</div>
-                            <p className="mark"> You won't change it latter. <br/>
+                            <p className="mark"> You won't change it latter. <br />
                              Certain reservation may need to security deposite</p>
                         </div>
                     </div>

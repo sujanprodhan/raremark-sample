@@ -21,7 +21,7 @@ class SearchBar extends Component {
                         </div>
                         <div className="col-sm-3">
                             <span> <i className="fa fa-user"> </i></span>
-                            <span> Adult - child- room-date</span>
+                            <span> Adult - child-</span>
                         </div>
                         <div className="col-sm-2">
                             <input type="button" className="btn btn-primary" value="Search" />
