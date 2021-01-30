@@ -6,9 +6,9 @@ import { createGlobalStyle } from 'styled-components';
 
 import store from './store';
 import App from './components/App';
-import Posts from './components/Posts';
+import Posts from './components/pages/posts';
 import reset from './constants/css/reset';
-import AddNewPost from './components/AddNewPost';
+import AddNewPost from './components/pages/addNewPosts';
 
 import Raremark from './components/pages/index';
 import LandingPage from './components/pages/landingpage';
@@ -28,9 +28,7 @@ ReactDOM.render(
                     <Route path="/posts" exact>
                         <Posts />
                     </Route>
-                    <Route path="/add-new-post" exact>
-                        <AddNewPost />
-                    </Route> */}
+           */}
                     <Route path="/" exact>
                         <Raremark />
                     </Route>
@@ -42,6 +40,12 @@ ReactDOM.render(
                     </Route>
                     <Route path="/search" exact>
                         <Search />
+                    </Route>
+                    <Route path="/posts" exact>
+                        <Posts />
+                    </Route>
+                    <Route path="/add-new-post" exact>
+                        <AddNewPost />
                     </Route>
                 </Switch>
             </Provider>

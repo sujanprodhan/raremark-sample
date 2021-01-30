@@ -11,6 +11,8 @@ class Header extends Component {
                 <li><a href="/landing-page"> Landing Page </a></li>
                 <li><a href="/details"> Product Details</a></li>
                 <li><a href="/search"> Search</a></li>
+                <li><a href="/posts"> Posts (API)</a></li>
+                <li><a href="/add-new-post"> Add New Posts (API)</a></li>
             </ul>
         </div>
       </div>

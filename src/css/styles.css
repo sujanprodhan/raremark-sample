@@ -8,3 +8,18 @@
 .test-assement{
     padding: 60px 0px;
 }
+.post-api{
+    padding-top: 40px;
+    color: lightcoral;
+}
+.post-form{
+    padding-bottom: 50px;
+}
+.success-message{
+    font-size: 20px;
+    background-color: green;
+    margin: 30px 0px;
+    padding: 10px 30px;
+    color: white;
+    display: none;
+}
